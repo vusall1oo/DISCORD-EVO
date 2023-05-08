@@ -1,0 +1,638 @@
+@font-face {
+    font-family: "gg-sans";
+    src: url("../fonts/ggsans-Normal.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "gg-sans";
+    background-color: #1E1F22;
+
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,500,700");
+
+
+
+.container {
+    width: 100%;
+    display: flex;
+    height: 100vh;
+}
+
+.left-div .username-div {
+    display: none;
+    background-color: #2B2D31;
+}
+
+.fa-chevron-down,
+.fa-hashtag {
+    background-color: transparent;
+}
+
+
+.hr-line {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.358);
+    height: 1.6px;
+}
+
+.leftbox {
+    width: 100%;
+    background-color: #555555;
+    padding-right: 9px;
+    height: 2.6px;
+}
+
+.left-fonts,
+.fonts-img {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313338;
+    color: rgba(255, 255, 255, 0.782);
+    font-size: 20px;
+    flex-direction: column;
+    transition: .4s all;
+    border-radius: 50%;
+}
+
+.fonts-img:hover {
+    border-radius: 30%;
+
+}
+
+.green:hover {
+    border-radius: 30%;
+    background-color: rgb(0, 144, 0);
+}
+
+.discord:hover {
+    border-radius: 30%;
+    background-color: #7289da;
+}
+
+.username-div {
+    display: flex;
+    justify-content: space-between;
+    padding: 16.7px;
+
+    font-family: "gg-sans";
+    background-color: #2B2D31;
+    color: white;
+    font-weight: bold;
+}
+
+.search-input {
+    width: 100%;
+    padding: 2px;
+    display: flex;
+    border-radius: 6px;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+.fonts-boxs .fa-magnifying-glass {
+    color: rgba(255, 255, 255, 0.782);
+    cursor: pointer;
+}
+
+.search-input input {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.fa-magnifying-glass {
+    padding: 5px 8px 5px;
+
+}
+
+.fonts-boxs .fa-inbox {
+    color: rgba(255, 255, 255, 0.782);
+    cursor: pointer;
+}
+
+.fonts-boxs .fa-question {
+    color: rgba(255, 255, 255, 0.782);
+    cursor: pointer;
+    width: 52px;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: green;
+    transition: .4s all;
+}
+
+.fonts-boxs .fa-question:hover {
+    color: black;
+    background-color: white;
+}
+
+.fonts-boxs {
+
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+.fonts-boxs .fa-hashtag {
+    color: rgba(255, 255, 255, 0.782);
+    cursor: pointer;
+}
+
+.fonts-boxs .fa-bell {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.782);
+}
+
+.fonts-boxs .fa-map-pin {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.782);
+}
+
+.fonts-boxs .fa-user-group {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.782);
+
+}
+
+.fonts-boxs input {
+    background-color: transparent;
+    outline: none;
+    padding-left: 5px;
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.general-div {
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: "gg-sans";
+    background-color: #313338;
+    color: white;
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+
+.general-text {
+    background-color: transparent;
+    display: flex;
+    gap: 10px;
+}
+
+.fonts {
+    background-color: transparent;
+    display: flex;
+
+    margin-right: 15%;
+}
+
+body i {
+    background-color: transparent;
+
+}
+
+.fa-map-pin {
+    transform: rotate(45deg);
+    background-color: transparent;
+    color: gray
+}
+
+.general-div i {
+    font-size: 20px;
+
+    color: #ffffff57;
+    ;
+}
+
+.username-div span,
+i {
+    background-color: #2B2D31;
+}
+
+.username-div:hover {
+    background-color: #555555;
+    cursor: pointer;
+
+}
+
+hr {
+    background-color: #313338;
+}
+
+.right-div {
+    width: 80%;
+
+    background-color: #313338;
+
+}
+
+.left-box {
+    width: 4%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 15px;
+    gap: 15px;
+}
+
+.right-box {
+    width: 100%;
+    display: flex;
+}
+
+.right-logos {
+    width: 100%;
+}
+
+.input-message-div {
+    width: 100%;
+
+    background-color: transparent;
+    height: 90vh;
+}
+
+.left-logos {
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    padding-left: 25px;
+    align-items: center;
+    background-color: transparent;
+    gap: 10px;
+    padding-bottom: 10px;
+    border-radius: 6px;
+}
+
+.left-logos input {
+    width: 100%;
+}
+
+.left-logos i {
+    width: 30px;
+    height: 30px;
+    background-color: #555555;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.782);
+}
+
+.left-logos input {
+
+    width: 100%;
+}
+
+.right-logos {
+    width: 20%;
+    display: flex;
+    gap: 15px;
+    flex-direction: row;
+
+    background-color: transparent;
+
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+
+.right-logos i {
+    cursor: pointer;
+
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.782);
+}
+
+
+.input-logos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.input-div {
+    width: 90%;
+    display: flex;
+    position: fixed;
+    color: white;
+    height: 55px;
+    bottom: 2%;
+    left: 7%;
+    justify-content: start;
+    align-items: center;
+    padding-top: 9px;
+    background-color: #383A40;
+    border-radius: 6px;
+}
+
+.input-div input {
+    color: white;
+}
+
+.name-login {
+    width: 400px;
+    height: 250px;
+    border-radius: 9px;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #121416;
+}
+
+.name-login input {
+    width: 250px;
+    outline: none;
+    height: 40px;
+    background-color: white;
+    border: 3px solid #7289da;
+    padding-left: 5px;
+    font-size: 15px;
+}
+
+.name-login button {
+    width: 250px;
+    height: 40px;
+    font-size: 15px;
+    outline: none;
+    border: none;
+    background-color: #7289da;
+    color: white;
+
+}
+
+.name-texts {
+    background-color: transparent;
+}
+
+.message-list-group {
+    font-weight: bold;
+    background-color: transparent;
+
+}
+
+.ul-message {
+    font-weight: bold;
+    background-color: transparent;
+}
+
+.name-input-msg {
+    background-color: transparent;
+}
+
+.img-message-div {
+    background-color: transparent;
+}
+
+.message-img {
+    background-color: transparent;
+    width: 50px;
+    height: 50px;
+}
+
+.name-input-msg {
+    color: white;
+}
+
+.name-login h1 {
+    color: white;
+    background-color: transparent;
+}
+
+.message-list-group {
+    list-style-type: none;
+    color: white;
+
+}
+
+.messages {
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+    width: 88em;
+    border-bottom: 1px solid #555555;
+    gap: 10px;
+    background-color: transparent;
+    align-items: center;
+}
+
+.name-modal {
+    width: 100%;
+
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    background-color: rgb(128, 128, 128, 0.5);
+}
+
+.input-div input {
+    background-color: transparent;
+    border: none;
+    font-size: 15px;
+    outline: none;
+    padding-left: 5px;
+    width: 80%;
+    height: 5vh;
+}
+
+.messages-div {
+    background-color: #2B2D31;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 100%;
+    }
+.messages
+{
+    width: 81vw;
+}
+    .left-box {
+        width: 20%;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-box {
+        width: 100%;
+    }
+
+    .fonts-boxs .fa-hashtag {
+        display: none;
+    }
+
+    .fa-bell,
+    .fa-map-pin,
+    .fa-user-group {
+        display: none;
+    }
+
+    .left-div {
+        display: none;
+    }
+
+    .right-div {
+        min-width: 100%;
+
+    }
+
+    .fonts-boxs {
+        display: flex;
+    }
+
+    .right-logos {
+        display: none;
+    }
+
+    .fonts-boxs .fa-question {
+        color: rgba(255, 255, 255, 0.782);
+        cursor: pointer;
+        width: 40px;
+        height: 26px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        background-color: green;
+        transition: .4s all;
+    }
+
+    .fonts {
+        width: 100%;
+        display: flex;
+    }
+
+    .input-div {
+        width: 75%;
+        display: flex;
+        position: fixed;
+        height: 55px;
+        bottom: 2%;
+        left: 20%;
+        justify-content: start;
+        align-items: center;
+        padding-top: 9px;
+        background-color: #383A40;
+        border-radius: 6px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .container {
+        width: 100%;
+    }
+    .messages
+    {
+        width: 88vw;
+    }
+    .left-box {
+        width: 10%;
+        display: flex;
+        align-items: center;
+    }
+
+    .right-box {
+        width: 100%;
+    }
+
+    .left-div {
+        display: none;
+    }
+
+    .right-div {
+        min-width: 100%;
+
+    }
+
+    .fonts-boxs {
+        display: flex;
+    }
+
+    .input-div {
+        width: 85%;
+        display: flex;
+        position: fixed;
+        height: 55px;
+        bottom: 2%;
+
+        left: 12%;
+        justify-content: start;
+        align-items: center;
+        padding-top: 9px;
+        background-color: #383A40;
+        border-radius: 6px;
+    }
+
+    .right-logos {
+        display: none;
+    }
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .container {
+        width: 100%;
+    }
+
+    .left-box {
+        width: 10%;
+        display: flex;
+    }
+
+    .general-div {
+        width: 100%;
+    }
+
+    .left-div {
+
+        display: flex;
+    }
+
+    .fonts-boxs {
+        display: flex;
+    }
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .left-box {
+        width: 5%;
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
